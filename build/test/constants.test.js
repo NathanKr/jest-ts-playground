@@ -20,9 +20,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var constants = __importStar(require("../src/constants"));
-jest.mock('../src/constants', function () { return ({
-    DB_NAME: 'Nathan'
+jest.mock("../src/constants", function () { return ({
+    DB_NAME: "Nathan",
 }); });
-test('const DB_NAME is override correctly', function () {
+test("const DB_NAME is override correctly", function () {
     expect(constants.DB_NAME).toEqual("Nathan");
 });
