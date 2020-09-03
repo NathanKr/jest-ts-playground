@@ -1,0 +1,26 @@
+{
+  "name": "jest-ts-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-all" : "npm test ./build/test -- --silent" , 
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanKr/jest-ts-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanKr/jest-ts-playground/issues"
+  },
+  "homepage": "https://github.com/NathanKr/jest-ts-playground#readme",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0"
+  }
+}
